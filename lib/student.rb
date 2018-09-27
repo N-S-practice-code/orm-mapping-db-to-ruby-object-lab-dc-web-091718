@@ -85,5 +85,11 @@ class Student
   
   end
   
-  def
+  def self.first_X_students_in_grade_10(x)
+  
+  end
+  
+  def self.first_X_students_in_grade_10(x)
+  
+  end
 end
