@@ -82,6 +82,6 @@ class Student
   end
   
   def self.all_students_in_grade_X(x)
-    db.execute("SELECT * FROM students WHERE grade=?", id_num).flatten
+    db.execute("SELECT * FROM students WHERE grade=?", x).flatten
   end
 end
