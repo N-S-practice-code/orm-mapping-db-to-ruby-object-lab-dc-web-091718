@@ -66,15 +66,7 @@ class Student
   
   
   def self.all_students_in_grade_9
-    sql = <<-SQL
-    CREATE TABLE IF NOT EXISTS students (
-      id INTEGER PRIMARY KEY,
-      name TEXT,
-      grade TEXT
-    )
-    SQL
 
-    DB[:conn].execute(sql)
   end
   
   def self.students_below_12th_grade
@@ -89,7 +81,7 @@ class Student
   
   end
   
-  def self.first_X_students_in_grade_10(x)
+  def self.all_students_in_grade_X(x)
   
   end
 end
